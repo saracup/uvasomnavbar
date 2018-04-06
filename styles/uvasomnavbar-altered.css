@@ -1,0 +1,959 @@
+#uvahealthsomtopbar {
+	width:100%;
+	clear:both;
+	font-size:15px;
+	min-height:24px;
+	background:#023456;
+}
+#healthsystem {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	background-color: #023456;
+	line-height: 1.0;
+	height:40px;
+	border-top: 4px solid #ff7003;
+	border-bottom: solid 1px /*#266999*/#135280;
+}
+#healthsystem-inner {
+	max-width: 1140px;
+	text-align:center;
+	margin:0 auto;
+	padding-top:5px;
+	position:relative;
+}
+#uvasom {
+	width:100%;
+	clear:both;
+	margin:0 auto;
+	padding:0;
+	background-image:url(images/uvasom_bg.png);
+	background-repeat:repeat-x;
+	min-height:75px;
+
+}
+.clearfix {
+	width:100%;
+	clear:both;
+}
+/*************** Health System Top Menu Bar ********************/
+div#hs-menu {
+	display:none;
+}
+nav#nav-global {
+	display:none;
+}
+div#hs-menu-link {
+	float:right;
+	width:auto;
+	padding:10px 8px 8px 8px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin-top:-9px;
+	background:#102C40;
+	-webkit-font-smoothing: subpixel-antialiased;
+
+}
+div#hs-menu-link a {
+	font-size:0.7em;
+	font-family:Verdana, sans-serif;
+	color:#bbc3c9;
+	text-decoration:none;
+	float:left;
+	display:inline-block;
+	text-transform:uppercase;
+}
+#hs-menu-arrow {
+	float:right;
+	background-image:url(/sharedassets/images/sprites.png);
+	background-repeat:no-repeat;
+	width:13px;
+	height:13px;
+	display:inline;
+	margin-left:3px;
+	background-position:0 -4px;
+}
+#hs-menu-arrow.down {
+	background-position: -13px -4px;
+}
+div#hs-menu-link a:hover {
+	color:#fff;
+}
+div#hs-menu.display {
+	margin:0 auto;
+	display:block;
+	width:100%;
+	padding:0;
+}
+#hs-menu-top-bar {
+	margin:0 auto;
+	list-style-type:none;
+	display:block;
+	float:none;
+	text-align:center;
+	overflow:hidden;
+}
+
+#hs-menu-top-bar li.menu-item {
+	display:inline;
+	list-style-type:none;
+	line-height:1.0;
+	text-align:center;
+}
+#hs-menu-top-bar li.menu-item a {
+	color:#8AAECF;
+	font-size:1em;
+	line-height:1.0;
+	text-decoration:none;
+	padding:8px 16px 7px 16px;
+	line-height:1.0;
+	text-decoration:none;
+	font-family:verdana;
+	font-weight:300;
+	display:inline-block;
+}
+#hs-menu-top-bar li.menu-item a.serif {
+	font-family:"adobe-caslon-pro",Georgia,serif;
+	text-transform:uppercase;
+	font-size:0.9em;
+	line-height:1.0;
+	padding-bottom:3px;
+}
+#hs-menu-top-bar li.menu-item a:hover {
+	text-decoration:none;
+	background:#5c83a8;
+	color:#fff;
+}
+#hs-menu-top-bar li.menu-item a.serif:hover {
+	padding-top:8px;
+	color:#fff;
+}
+#healthsystem-home a {
+	display:block;
+	text-transform:uppercase;
+	float:left;
+	clear:none;
+	margin-top:5px;
+
+}
+/* Health System Links */
+/*--------------------------------------------- */
+#nav-global { overflow:hidden; background:#102C40; font-family:Verdana, sans-serif; -webkit-font-smoothing: antialiased;}
+#nav-global ul { margin: 0 auto;
+padding: 0;
+overflow: hidden;
+max-width: 1230px;
+background: #102C40;
+position: relative;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+flex-flow: nowrap row;
+-webkit-flex-flow: nowrap row;
+-webkit-justify-content: space-around;
+justify-content: space-around;}
+			
+#nav-global li { font-size: 10px;
+text-align: center;
+text-transform:uppercase;
+padding:0;}
+#nav-global li:first-child { margin:0; position:relative; z-index:2; }
+#nav-global li a { display: block;
+margin-top: 6px;
+padding: 4px 25px 10px 25px;
+color: #266999;
+border: 1px solid transparent;
+}
+#nav-global li a.first-child { margin-left:0; /*margin-left:20px; padding-left:20px;*/  }
+#nav-global li a.last-child { margin-right:0; /*padding-right:20px;*/ }
+#nav-global li a.active { color:#4795CC; }
+#nav-global li a:visited { color:#266999; }
+#nav-global li a:hover { background:#135280; color:#4795CC;  }
+#nav-global li a.selected { background:#135280; color:#4795CC; }
+#nav-global li a.selected:visited { color:#4795CC; }
+			
+.footernav #nav-global ul {
+background: #163d5a;
+font-family:Georgia, "Times New Roman", Times, serif;
+padding:15px 0 15px 0;
+}
+
+/****************Health System Menu in Footer****************/
+#uvasom-footer-nav {
+	background:none;
+	max-width:100%;
+	display:block;
+	font-size:0.8em;
+	font-family:verdana;
+	line-height:1.4;
+	margin:10px 0 0 0;
+	padding:0;
+	text-align:left;
+
+}
+#uvasom-footer-nav ul, #uvasom-footer-nav ul li {
+	list-style-type:none;
+	font-weight:700;
+	color:#fff;
+	margin-top:4px;
+}
+#uvasom-footer-nav ul li li {
+	margin-left:3px;
+	font-weight:300;
+}
+#uvasom-footer-nav ul li li li {
+	margin-left:6px;
+	font-weight:300;
+}
+#uvasom-footer-nav a:hover {
+	text-decoration:underline;
+}
+#uvasom-footer-nav a {
+	color:#fff;
+	font-weight:300;
+	text-decoration:none;
+}
+#uvasom-footer-nav h4 {
+color: #fff;
+font-size: 1.2em;
+text-transform: uppercase;
+margin-top: 10px;
+text-align: left;
+padding: 0;
+margin: 5px 0 3px 0;
+}/************* UVA School of Medicine Menu Bar ***************/
+#uvasom-menu {
+	position:absolute;
+	top:11px;
+	left:50%;
+	left: 50%;
+margin-left: -50px;
+	z-index:500000;
+}
+body.logged-in #uvasom-menu {
+top: 43px;
+}
+body.logged-in div.uvasom_sub_menu {
+top: 76px;
+}
+#uvasom-menu.lower {
+	top:36px;
+}
+body.logged-in #uvasom_megamenu.lower {
+top: 112px;
+}
+body.logged-in #uvasom-menu.lower {
+top: 65px;
+}
+#uvasom-menu-top-bar.menu {
+	display:inline;
+	margin:0;
+}
+
+#uvasom-menu-top-bar li.menu-item {
+	display:inline;
+	list-style-type:none;
+	line-height:1.6;
+	text-align:center;
+}
+#uvasom-menu-top-bar li.menu-item a {
+	font-size: 12.5px;
+	font-size: 1em;
+	text-transform: uppercase;
+	-webkit-font-smoothing:subpixel-antialiased;
+	font-weight: 300;
+	display: inline;
+	color: #fff;
+	font-weight: 300;
+	padding: 12px;
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+}
+#uvasom-menu-top-bar li.menu-item a:hover {
+	background:#5c83a8;
+	color:#fff;
+}
+
+#uvasom-menu-top-bar li.current_page_item a {
+	/*background-image:url(images/uvasommenu_current_bg.png);
+	background-repeat:repeat-x;*/
+	color:#fff;
+	background-color:#336699;
+	}
+#uvasom-menu-top-bar li.active_page_item a {
+	color:#fff;
+	background:#5c83a8;
+}
+#uvasom-menu-top-bar li.menu-item ul.sub-menu li.menu-item a {
+	color:#fff;
+}
+#uvasom-menu-top-bar li.menu-item ul.sub-menu li.menu-item a:hover {
+	color:#a50;
+}
+#uvasom-menu-top-bar li.menu-item ul.sub-menu {
+	text-align:left;
+}
+	#somlogo {
+		display:block;
+		padding:0px;
+		margin:0px; 
+		float:left;
+		clear:none;
+		/*background-image:url(/sharedassets/images/sprites.png);
+		background-position: 0 -179px;*/
+	background-image:url(/sharedassets/images/uvasom_2014.svg);
+	background-size:182px 30px;
+	background-repeat:no-repeat;
+	width:200px;
+	height:35px;
+	overflow:hidden;
+}
+#somlogo h1  {
+	margin-top:0;
+}
+#somlogo h1 a  {
+	padding-top:40px;
+	overflow:hidden;
+	display:inline-block;
+}
+#somlogo.nosom {
+	background-image:url(/sharedassets/images/sprites.png);
+	background-position: 0 -68px;
+}
+
+#healthsystemlink {
+	display:none;
+	padding:0;
+	margin:0;
+}
+#healthsystemlink a {
+	text-decoration:none;
+	font-family:"adobe-caslon-pro",Georgia,serif;
+	color:#fff;
+	text-decoration:none;	
+	font-size:0.9em;
+	font-weight:300;
+	display:inline-block;
+	margin-top:8px;
+	padding-left:4px;
+}
+#uvasom-inner {
+	text-align:left;
+	max-width:1144px;
+	margin:0 auto;
+	min-height:66px;
+	background-image:url(images/uvasommenu_cloudy_bg.png);
+	background-position:100% 35px;
+	background-repeat:no-repeat;
+	padding-right:2px;
+	
+}
+#uvasom.nosom, #uvasom-inner.nosom, #uvasom-inner.upg {
+	background:none;
+}
+
+#healthsystem #uvalogo a, #uvasom #somlogo a {
+	line-height:1.0;
+	padding:0;
+	margin:0;
+ }
+#uvasom-menu-top-bar.menu-primary li a:active, #uvasom-menu-top-bar.menu-primary li a:hover, #uvasom-menu-top-bar.menu-primary .current_page_item a, #uvasom-menu-top-bar.menu-primary .current-cat a, #uvasom-menu-top-bar.menu-primary .current-menu-item a, #uvasom-menu-top-bar.menu-secondary li a:active, #uvasom-menu-top-bar.menu-secondary li a:hover, #uvasom-menu-top-bar.menu-secondary .current_page_item a, #uvasom-menu-top-bar.menu-secondary .current-cat a, #uvasom-menu-top-bar.menu-secondary #uvasom-menu-top-bar.current-menu-item a, #uvahealthsomtopbar .menu li a:active, #uvahealthsomtopbar .menu li a:hover, #uvahealthsomtopbar .menu .current_page_item a, #uvahealthsomtopbar .menu .current-cat a, #header .menu .current-menu-item a
+{
+	text-decoration:none;
+}
+/***************** MEGA MENUS ****************/
+div.uvasom_sub_menu {
+	position:absolute;
+	top:43px;
+	width:1100px;
+	display:block;
+	background:#5c83a8;
+	z-index:100000;
+	left:50%;
+	margin-left:-570px;
+	padding:0 20px 20px 20px;
+}
+div.uvasom_sub_menu.education,
+div.uvasom_sub_menu.research,
+div.uvasom_sub_menu.departments,
+div.uvasom_sub_menu.community {
+	background:#5c83a8;
+	opacity:1.0;
+}
+#uvasom_megamenu {
+	display:none;
+}
+#uvasom_megamenu  li.heading {
+	font-weight:bold;
+}
+.uvasom_sub_menu div.uvasom_megamenu {
+	width:22%;
+	margin:10px;
+	float:left;
+	clear:none;
+}
+.uvasom_sub_menu div.uvasom_megamenu ul, .uvasom_sub_menu div.uvasom_megamenu ul li
+{
+	list-style-type:none;
+	line-height:1.0em;
+	color:#023456;
+	font-family:Verdana, Geneva, sans-serif;
+}
+div.uvasom_megamenu li.heading {
+	font-weight:bold;
+}
+.uvasom_sub_menu li
+{
+	margin:5px 0 0 0;
+	padding:0px;
+}
+.uvasom_sub_menu div.uvasom_megamenu a {
+	color:#fff;
+	font-size:1em;
+	font-weight:300;
+}
+a.closebox {
+	display:block;
+	width:100%;
+	float:right;
+	text-align:right;
+	max-height:10px;
+	font-family:verdana;
+	color:#e7e7e7;
+	font-size:0.8em;
+	clear:none;
+}
+img.closebox {
+	padding:5px 0 0 5px;
+	width:10px;
+	padding-top: 5px;
+	height:10px;
+	margin-right:-12px;
+	clear:none;
+}
+/************* UVA SOM Site Search *************/
+#healthsystem-inner #uvasom_sitesearch {
+	display: inline-block;
+	float: left;
+	width: 210px;
+	clear: right;
+	margin: 3px 20px 0 00px;
+	text-align: left;
+	background: #034471;
+	border:1px dotted #666;
+	-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+#healthsystem-inner #uvasom_sitesearch input#q_sitewide {
+	padding:0 0 0 4px;
+	color: #d7d7d7;
+	font-family: verdana;
+	font-size: 1em;
+	width: 175px;
+	font-style: italic;
+	float:left;
+	margin-top:4px;
+	background: none;
+	border: none;
+}
+#uvasom #searchbutton, #healthsystem-inner #menubutton {
+display:none;
+}
+#healthsystem-inner #uvasom_sitesearch input[type="submit"] {
+	margin:0 3px 0 0;
+	float:right;
+	width:25px;
+	height:25px;
+	border:0;
+	background:none;
+	background-color:transparent;
+	color:transparent;
+	background-image:url(/sharedassets/images/sprites.png);
+	background-position: -82px 0;
+	background-repeat:no-repeat;
+	font-size:0px;
+	padding:0;
+}
+	 div#hs-menu-link a span.mobile {
+		 display:none;
+	 }
+/************* RESPONSIVE *************/
+
+@media only screen and (max-width: 480px) {
+	div#healthsystem-inner {
+padding-left: 10px !important;
+overflow:visible !important;
+	}
+	div#hs-menu-link {
+   /* left: 246px; */
+	}
+		#uvasom-menu-top-bar li.menu-item,
+	#uvasom-menu-top-bar li.current-menu-item
+	 {
+		font-size:0.9em;
+	 }
+	#uvasom-menu-top-bar li.menu-item a, 
+	#uvasom-menu-top-bar li.current-menu-item a  {
+		padding: 7px 6px 10px 6px;
+	 }
+	 #hs-menu-arrow {
+		width: 10px;
+		margin-left: 0px;
+		float:right;
+	 }
+	 div#hs-menu-link {
+		width: auto !important;
+		line-height: 1.1em;
+		padding: 9px 7px 8px 7px !important;
+		 font-size:1.5em;
+	 }
+	 div#hs-menu-link a {
+		 width:auto !important;
+	 }
+	 div#hs-menu-link a span.mobile {
+		 display:inline-block;
+		 float:left;
+	 }
+	 div#hs-menu-link a span.larger {
+		 display:none;
+	 }
+	#healthsystem-inner #uvasom_sitesearch   {
+	position:absolute;
+	top:39px;
+	height:50px;
+	left:0px;
+	width: 98%;
+	background:#fff;
+	display:none;
+	z-index:40;
+	overflow:visible !important;
+	padding:10px 5px;
+	margin:0 5px 0 5px;
+	}
+	#healthsystem-inner #uvasom_sitesearch input#q_sitewide {
+		font-size: 0.7em;
+		border:1px solid #ccc;
+		font-style:normal;
+		padding:5px;
+		color:#666;
+		width: 85%;
+	}
+	#menubutton3 {
+	display:inline-block !important;
+	float:left !important;
+	clear:none !important;
+	margin: 0 8px 0 0px;
+	padding:3px;
+	border:1px dotted #8AAECF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*position:absolute;
+	right:5px;
+	top:45px;*/
+	}
+	#menubutton3 a.menubutton {
+	background-image:url(/sharedassets/images/sprites.png);
+	background-repeat:no-repeat;
+	background-position: -79px -1px;
+	width:25px;
+	height:22px;
+	padding:0;
+	margin:0;
+	display:block;
+	}
+
+}
+@media only screen and (max-width: 640px) {
+/*This is where the top blue bar gets mobile*/
+/******take the megamenu columns to full width*********/
+
+.uvasom_sub_menu div.uvasom_megamenu {
+		margin:10px;
+		width:100%;
+		clear:both;
+	}
+	div#hs-menu-link {
+		width:70px;
+		line-height:0.9em;
+		/*padding: 9px 8px 8px 12px;*/
+		padding: 6px 3px 6px 6px;
+		border-left: 1px dotted #bbc3c9;
+		border-bottom: 1px dotted #bbc3c9;
+		border-right: 1px dotted #bbc3c9;
+	}
+	div#hs-menu-link a {
+	font-size: 0.7em;
+	text-transform:uppercase;
+	display:inline-block;
+	float:left;
+	clear:none;
+	width:51px;
+	}
+	div#hs-menu-link a span.uva {
+		display:none;
+	}
+	#hs-menu-arrow, #hs-menu-arrow.down {
+		float:left;
+		clear:none;
+		margin-top:6px;
+	}
+	#somlogo {
+		width:100px;
+		background-image:url(/sharedassets/images/sprites.png);
+		background-repeat:no-repeat;
+		background-position:0 -105px;
+		background-size:230px 220px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	/*hide health system menu*/
+	#healthsystem {
+	height:40px;
+	position:relative;
+	clear:both;
+	max-width: 100%;
+	}
+	#healthsystem-inner {
+	float:left;
+	clear:both;
+	max-width:100%;
+	margin:0;
+	}
+	#healthsystem-home a {
+	display:block;
+	margin:8px 0 0 5px;
+	font-size:1.0em;
+	color:#fff;
+	font-family:"adobe-caslon-pro",Georgia,serif;
+	}
+	div#hs-menu {
+	max-width: 100%;
+	clear: both;
+	float:none;
+	margin:2px 0 0 0;
+	}
+/*	#hs-menu-top-bar {
+		display:none;
+	}*/
+	#hs-menu-top-bar li.menu-item
+	{
+		display:inline;
+		text-align:center;
+		width:100%;
+		z-index:200000;
+	}
+	#hs-menu-top-bar li.healthsystemhome, #hs-menu-top-bar li.healthsystemhome a.serif {
+	display:none;
+	padding:0;
+	clear:none;
+}
+
+	#hs-menu-top-bar li.menu-item a, 
+	#hs-menu-top-bar li.current-menu-item a 
+	{
+		display:inline-block;
+		text-align:right;
+		padding:4px 4px 7px 4px;
+		color:#fff;
+		
+	}
+	#hs-menu-top-bar li.menu-item,
+	#hs-menu-top-bar li.current-menu-item,
+	#hs-menu-top-bar li.menu-item a, 
+	#hs-menu-top-bar li.current-menu-item a
+
+	{
+		display:block;
+		text-align:center;
+		width:100%;
+		clear:both;
+		font-size:1.0em;
+		line-height:1.0;
+		padding:0;
+		margin:0;
+
+	}
+	#nav-global ul,.uvasomclinical #nav-global ul {
+		display:block;
+	}
+		#hs-menu-top-bar li.current-menu-item a 
+	{
+		background-color:#fff;
+		color:#336699;
+	}
+		#uvasom-inner {
+		background:none;
+	}
+	#uvasom_megamenu.lower {
+	top: 238px !important;
+	}
+/***when the screen size goes down to mobile, show the menu and search buttons******/
+/******school of medicine has two buttons for the search and menu*******/
+	#uvasom_sitesearch {
+	display: inline-block;
+	float: none;;
+	max-width: 100%;
+	clear: both;
+	margin: 5px auto 15px auto;
+	text-align:center;
+	z-index: 5555555;
+	}
+
+	#uvasom #searchbutton a.searchbutton  {
+	background-image:url(images/magnifying_white_large.png);
+	background-repeat:no-repeat;
+	background-position: 0 1px;
+	width:25px;
+	height:22px;
+	padding:0;
+	margin:0;
+	display:block;
+	}
+	#uvasom-inner.nosom #responsivebuttons  {
+		display:none;
+	}
+
+/*******health system has just one button for the menu*********/
+	#menubutton {
+	display:block !important;
+	float:right !important;
+	clear:none !important;
+	margin:2px 3px 0 0;
+	padding:5px;
+	border:1px dotted #8AAECF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	}
+	#menubutton a.menubutton {
+	background-image:url(/sharedassets/images/sprites.png);
+	background-repeat:no-repeat;
+	background-position: -106px -2px;
+	width:25px;
+	height:22px;
+	padding:0;
+	margin:0;
+	display:block;
+	}
+	#uvasom_hs_primary_footer #hs-menu-top-bar li.current-menu-item,
+	#uvasom_hs_primary_footer #hs-menu-top-bar li.current-menu-item a {
+		display:block;
+	}
+/*****now push the header up a bit to keep proportions on the moile screen*******/
+	/*#wrap {
+	margin: -15px auto;
+	}*/
+/******push the mega menu down below the drop-down menu for SOM on mobile devices*****/
+#uvasom_megamenu {
+	top:77px;
+	padding-left:15px;
+}
+/*******adjust fonts for mega menu so they can fit on a narrower screen**********/
+.uvasom_sub_menu div.uvasom_megamenu {
+	margin:5px;
+}
+.uvasom_sub_menu div.uvasom_megamenu ul, .uvasom_sub_menu div.uvasom_megamenu ul li
+{
+	line-height:1.1em;
+}
+.uvasom_sub_menu div.uvasom_megamenu a {
+	font-size:0.7em;
+}
+
+}
+@media only screen and (max-width: 800px) {
+	#nav-global li a { display: block;
+	padding: 4px 20px 10px 20px;
+}
+#nav-global li a.last-child {
+margin-right: 20px; 
+padding-right:20px;
+}
+}
+@media only screen and (max-width: 940px) {
+/* make the top bar a little thicker so the hamburgers have enough room for the fingertip*/
+	#healthsystem {
+	height: 40px;
+	}
+	#hs-menu-top-bar li.menu-item a {
+	padding: 7px;
+	font-size: 0.8em;
+	}
+	#hs-menu-top-bar li.menu-item a.serif {
+	padding-bottom:3px !important;
+	}
+	div#hs-menu-link {
+		position: absolute;
+		right: 0;
+		top: 5px;
+		margin-right: 110px;
+	}
+	div#healthsystem-inner {
+	}
+	#uvasom-menu.lower {
+	top: 0px;
+	}
+		div.uvasom_sub_menu {
+	top: 80px;
+	}
+#uvasom_megamenu.lower {
+	top:108px;
+}
+
+}
+@media only screen and (max-width: 975px) {
+	/* CHANGE THE SOM NAVIGATION TO A HAMBURGER*/
+	#menubutton2 {
+	display:inline-block !important;
+	float:left !important;
+	clear:none !important;
+	margin: 0 8px 0 5px;
+	padding:3px;
+	border:1px dotted #8AAECF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*position:absolute;
+	right:5px;
+	top:45px;*/
+	}
+	#menubutton2 a.menubutton {
+	background-image:url(/sharedassets/images/sprites.png);
+	background-repeat:no-repeat;
+	background-position: -106px -2px;
+	width:25px;
+	height:22px;
+	padding:0;
+	margin:0;
+	display:block;
+	}
+		/*hide uvasom menu*/
+	#uvasom-menu {
+		width:100% !important;
+		display:block !important;
+		margin:0;
+		padding:0;
+		position:relative;
+		overflow:hidden;
+		left:0px !important;
+		text-align:center !important;
+		top: -6px;
+	}
+	#uvasom-menu-top-bar.menu {
+		width:100%;
+		display:inline-block;
+		background:#034471;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+}
+	#uvasom-menu-top-bar li.menu-item,
+	#uvasom-menu-top-bar li.current-menu-item
+	 {
+		/*font-size:0.8em;*/
+	 }
+	#uvasom-menu-top-bar li.menu-item a, 
+	#uvasom-menu-top-bar li.current-menu-item a  {
+		background:#034471;
+		text-align:left;
+		float:left;
+		clear:none;
+		width:auto!important;
+		display:inline;
+		font-weight: 300;
+		padding: 7px 15px 10px 15px;
+	 }
+}
+@media only screen and (max-width: 960px) {
+	#uvasom_sitesearch input#q_sitewide {
+	font-family: verdana;
+	font-size: 0.7em;
+	}
+	#healthsystem-inner #uvasom_sitesearch input[type="submit"] {
+	width: 19px;
+	}
+	#uvasom_sitesearch input#q_sitewide {
+	width:160px;
+	}
+	#uvasom_sitesearch {
+	width:200px;
+	margin-right:5px;
+	}
+	#healthsystem-inner {
+	text-align: left;
+	}
+	#uvasom_sitesearch {
+	width: 190px;
+	}
+}
+@media only screen and (max-width: 1080px) {
+	
+	#uvasom-menu-top-bar li.menu-item a {
+font-size: 10.5px;
+padding: 11px 9px 12px 9px;
+	}
+
+}
+@media only screen and (max-width: 1139px) {
+	#healthsystem-inner, #uvasom-inner {
+	/*margin-left:4px;*/
+	}
+	#uvasom_sitesearch {
+	margin-left:20px;
+	}
+	#uvasom-menu-top-bar li.menu-item a {
+	font-size: 0.75em;
+	font-weight: 300;
+	padding: 7px 8px 10px 8px;
+	}
+	div#hs-menu-link {
+	margin-left:-8px !important;
+	}
+
+}
+@media only screen and (max-width: 1140px) {
+	div.uvasom_sub_menu {
+	margin-left:-50%;
+	width:100%;
+	padding:0;
+	}
+	a.closebox {
+	margin-right: 45px;
+	margin-top: 10px;
+	}	
+	div#healthsystem-inner {
+	width:100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow:hidden;
+	}
+	#uvasom_sitesearch {
+	width: 150px;
+	margin: 0 20px 9px 20px;
+	}
+	#uvasom_sitesearch input#q_sitewide {
+	width: 110px;
+	}
+	#uvasom-menu-top-bar li.menu-item a{
+	font-size: 12px;
+	}
+	div#hs-menu-link {
+	margin-right:36px;
+	}
+	}
+@media only screen and (min-width: 1141px) {
+	/*#uvasom-menu {
+	left:45%;
+	margin-left:-30px;
+	}*/
+}
+

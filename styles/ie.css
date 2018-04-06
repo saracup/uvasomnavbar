@@ -1,0 +1,146 @@
+#uvahealthsomtopbar {
+/*font-size:14px;*/
+}
+#hs-menu {
+	padding-top:0px;
+}
+#hs-menu-top-bar {
+	margin-top:2px;
+	height:22px;
+	padding-top:0px;
+}
+#healthsystemlink, 
+#healthsystemlink a, 
+#hs-menu-top-bar li.menu-item a, 
+#uvasom_sitesearch, 
+#hs-menu-top-bar li.menu-item a, 
+#hs-menu-top-bar li.current-menu-item a  {
+	display:inline;
+    zoom:1;
+}
+#hs-menu-top-bar li.menu-item a, 
+#hs-menu-top-bar li.current-menu-item a  {
+	padding-top:8px;
+}
+
+#healthsystem {
+	padding-top:0px;
+	min-height:22px;
+	margin-top:0px;
+}
+#healthsystem-inner {
+	margin-bottom:-5px;
+}
+#healthsystemlink {
+    margin:0;
+    padding:0;
+	display:inline;
+    zoom:1;
+
+}
+#hs-menu-top-bar {
+    padding-left:0px;
+    margin-left:0px;
+	
+}
+#hs-menu {
+    float:none;
+    
+}
+#uvahealthsomtopbar .menu, #uvahealthsomtopbar .menu li.menu-item {
+	padding:0;
+}
+#uvahealthsomtopbar .menu li.menu-item a {
+	display:inline;
+    zoom:1;
+    height:20px;
+}
+#uvahealthsomtopbar .menu .current_page_item a {
+    background: #336699;
+    background-color: #336699;
+	padding:5px 20px 8px 20px;
+	display:inline;
+    zoom:1;
+}
+#uvasom_sitesearch {
+	display:inline;
+    zoom:1;
+	margin-bottom:5px;
+}
+#uvahealthsomtopbar .menu li.menu-item a:hover {
+background: #8AAECF;
+background-color: #8AAECF;
+}
+
+#uvahealthsomtopbar .menu .current_page_item a:hover {
+background: #fff;
+background-color: #fff;
+}
+#uvasom-menu-top-bar.menu {
+	margin-top:5px;
+}
+/*#uvasom-menu {
+	margin-top:-6px;
+}*/
+#uvasom_megamenu.lower {
+	top:63px;
+}
+#nav-global li {
+font-size: 10px;
+text-align: center;
+text-transform: uppercase;
+padding: 0;
+}
+.uvasomclinical #nav-global  {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+.uvasomclinical #nav-global ul {
+	list-style-type: none;
+	float: none;
+	width:100%;
+	padding:5px 0;
+	zoom:1;
+}
+.uvasomclinical #nav-global li {
+	display:inline;
+	zoom:1;
+	margin:0 auto;
+}
+#nav-global ul li a {
+	display:inline;
+	zoom:1;
+	padding:5px 24px 8px 24px;
+	font-size:11px;
+}
+#nav-global  {
+	display:inline;
+	float:none;
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	padding-top:8px;
+}
+#nav-global ul.menu_global {
+	display:inline;
+	float:none;
+	width:100%;
+	padding:5px 0 0 0;
+	zoom:1;
+	margin:8 auto 0 auto;	
+}
+#nav-global li {
+	display:inline;
+	zoom:1;
+	margin:0 auto;
+}
+#somlogo {
+	background-image:url(/sharedassets/images/sprites.png);
+	background-position: 0 -179px;
+	background-size:230px 220px;
+	background-repeat:no-repeat;
+}
+
+
+

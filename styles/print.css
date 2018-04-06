@@ -1,0 +1,13 @@
+@media print {
+#uvahealthsomtopbar, #nav, #uvasom_sitesearch, #header #uvasom_wpsearch, #uvasom-menu, #uvasom_megamenu, #uvasom-footer-nav {
+	display:none;
+}
+#uvasom #somlogo img {
+	margin-left:-9999px;
+}
+#uvasom-inner {
+	width:275px;
+	content:url(images/print/som_logo.jpg);
+	float:left;
+}
+}
